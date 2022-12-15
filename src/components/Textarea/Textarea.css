@@ -1,0 +1,16 @@
+.textarea {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.textarea textarea {
+    padding: 10px;
+    outline: none;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.178);
+    color: #fff;
+}

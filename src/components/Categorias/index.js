@@ -1,4 +1,5 @@
 import React from "react";
+import "./Categorias.css"
 
 const Categorias = (props) => {
     const categorias = [ 
@@ -7,7 +8,7 @@ const Categorias = (props) => {
         "Ciência",
     ]
     return (
-        <div>
+        <div className="categorias">
             <label>{props.label}</label>
             <select>
                 {categorias.map((catergoria) => (

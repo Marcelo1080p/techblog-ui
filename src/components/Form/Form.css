@@ -1,0 +1,28 @@
+.formulario {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 0.103);
+    backdrop-filter: blur(100px);
+    box-shadow: 0px 5px 300px rgba(255, 255, 255, 0.212);
+}
+
+.formulario .titulo {
+    position: relative;
+    text-align: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.formulario .titulo::before {
+    position: absolute;
+    content: "";
+    top: 40px;
+    width: 220px;
+    height: 2px;
+    background: linear-gradient(90deg, #23145b, #00C1C2 50%, #23145b);
+    border: none;
+}

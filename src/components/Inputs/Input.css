@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+.Inputs {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.Inputs input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 30px rgba(255, 255, 255, 0.212);
+    color: #fff;
+    background-color: transparent;
+}

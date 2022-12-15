@@ -3,9 +3,12 @@ import "./Textarea.css";
 
 const Textarea = (props) => {
     return ( 
-        <div>
+        <div className="textarea">
             <label>{props.label}</label>
-            <textarea cols={props.colunas} rows={props.linhas}/> 
+            <textarea 
+                cols={props.colunas} rows={props.linhas}
+                placeholder={props.placeholder}
+            /> 
         </div>
     )
 }
