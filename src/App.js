@@ -1,15 +1,16 @@
 import React, { useState, useEffect} from "react";
-import api from "./api";
+//import api from "./api";
 import Form from "./components/Form";
 
 
 
+
 function App() {
-  const [posts, setPosts] = useState([]);
+  /*const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     api.posts.findAll().then(res => setPosts(res))
-  }, []);
+  }, []);*/
 
   return (
     
