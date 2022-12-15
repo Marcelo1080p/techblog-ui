@@ -10,6 +10,7 @@ button {
     cursor: pointer;
     margin-top: 16px;
     transition: .5s all;
+    border-radius: 16px;
 }
 
 button:hover {
