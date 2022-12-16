@@ -1,8 +1,8 @@
 button {
     width: 250px;
     height: 50px;
-    background: linear-gradient(90deg, #23145b, #00C1C2 50%, #23145b);
-    color: #000;
+    background: linear-gradient(90deg, #23145b1c, #00c2c22a 50%, #23145b1c);
+    color: #FFF;
     font-family: "Poppins";
     font-weight: 600;
     font-size: 1rem;
@@ -11,9 +11,10 @@ button {
     margin-top: 16px;
     transition: .5s all;
     border-radius: 4px;
+    letter-spacing: 1px;
 }
 
 button:hover {
     transform: scale(1.1);
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
 }
