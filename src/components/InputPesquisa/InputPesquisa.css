@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input-pesquisa {
+    border: 1px solid #6d2f8f;
+    width: 400px;
+    display: flex;
+}
+
+.input-pesquisa input {
+    padding: 9px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+
+.input-pesquisa .lupa-pesquisa {
+    background-color: #6d2f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.lupa-pesquisa .circulo-pesquisa {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+}
+
+.lupa-pesquisa .circulo-pesquisa::after {
+    position: absolute;
+    content: "";
+    background-color: #FFF;
+    width: 3px;
+    height: 13px;
+    top: 85%;
+    left: 90%;
+    transform: rotate(130deg);
+}
