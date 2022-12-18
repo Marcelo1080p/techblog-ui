@@ -1,9 +1,9 @@
 import React from "react";
 import "./Button.css"
 
-const Button = () => {
+const Button = (props) => {
     return (
-        <button type="button">Postar</button>
+        <button type={props.type}>{props.nome}</button>
     )
 }
 

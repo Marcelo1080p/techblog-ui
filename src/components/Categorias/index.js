@@ -7,12 +7,16 @@ const Categorias = (props) => {
         "Curiosidades",
         "Ciência",
     ]
+
+    const atualizacao = (event) => {
+        props.atualizandoValores(event.target.value)
+    }
     return (
         <div className="categorias">
             <label>{props.label}</label>
-            <select>
-                {categorias.map((catergoria) => (
-                    <option>{catergoria}</option>
+            <select onChange={atualizacao}>
+                {categorias.map((categoria) => (
+                    <option key={categoria}>{categoria}</option>
                 ))}
             </select>
         </div>
